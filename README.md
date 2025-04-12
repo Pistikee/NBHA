@@ -1,8 +1,4 @@
-Absolutely! Here’s the full plain-text version (no boxes, perfect for copy-paste):
-
-⸻
-
-NBHA-256 (Number-Based Hash Algorithm)
+NBHA-(bits) (Number-Based Hash Algorithm)
 
 NBHA is a custom-designed hashing algorithm built for Castle games and other platforms needing high-speed, sensitive, and flexible hashing without relying on traditional cryptographic libraries. This algorithm introduces chaotic mathematical transformations, making it both deterministic and unpredictable — a rare combo.
 
