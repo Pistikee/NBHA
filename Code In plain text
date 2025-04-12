@@ -1,0 +1,13 @@
+Hash = round( 
+  sin( 
+    ( 
+      (log base (Seed × 65536) of Bits) + 
+      (Seed × (Seed / Bits)) 
+    ) mod (2 ^ Bytes) + 
+    (Salt² / Bits) 
+  ) × Salt 
+)
+
+Salt = (
+  (log base Seed of Bits) × (Bytes × Bits) × Seed
+) mod (2 ^ Bytes)
