@@ -31,8 +31,3 @@ def nbha_hash(input_value: int, multiplier: int, chaos: int) -> int:
 
     final_hash = round(sine * salt)
     return final_hash
-    
-    
-    -- examples
-    print(nbha_hash(20000, 64, 8))
-print(nbha_hash(20001, 64, 8))  # +1 difference test
